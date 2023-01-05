@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+body {
+    background-color: rgba(211, 211, 211, 0.459);
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;  
+    
+}
+
+header {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+section {
+    margin: auto;
+    padding-top: 20px;
+    width: 90vw;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.185);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.548);  
+}
+
+h2.principal {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 2em; 
+}
+
+#calculo {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#ipeso, #ialtura {
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+#botao {
+    width: 70px;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#res {
+    margin: 0 auto;
+    width: 250px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.473);
+    border-radius: 3px;  
+}
+
+#laudo {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;    
+}
+
+#laudo p {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.733);    
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+}
