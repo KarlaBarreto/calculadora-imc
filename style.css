@@ -69,10 +69,15 @@ h2.principal {
 }
 
 #laudo {
-    display: flex;
-    margin-top: 60px;
-    justify-content: space-around;    
+    width: fit-content;
+    text-align: left;
+    margin: 60px auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.384);
+    border-radius: 10px;
+    
 }
+
 
 #laudo p {
     font-weight: bold;
