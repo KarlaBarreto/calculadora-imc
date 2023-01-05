@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Indice de Massa Corporal (IMC)</h1>
+    </header>
+    <section>
+        <h2 class="principal">Calcule o seu IMC:</h2>
+        <div id="calculo">
+                <p>
+                    <label for="ipeso">Peso:</label>
+                    <input type="number" name="peso" id="ipeso">
+                </p>
+                <p>
+                    <label for="ialtura">Altura:</label>
+                    <input type="number" name="altura" id="ialtura">
+                </p>
+                <p>
+                    <button type="submit" id="botao" onclick="calcular()">Calcular</button>
+                </p>
+        </div>
+        <div id="res">
+            
+        </div>
+        <div id="laudo">
+            <div class="legenda">
+                <h2>Legenda</h2>
+                <p>Baixo peso muito grave</p>
+                <p>Baixo peso grave</p>
+                <p>Baixo peso</p>
+                <p>Peso normal</p>
+                <p>Sobrepeso</p>
+                <p>Obesidade grau I</p>
+                <p>Obesidade grau II</p>
+                <p>Obesidade grau III 
+                (obesidade morbida)</p>
+            </div>
+            <div class="imc">
+                <h2>IMC</h2>
+                <p>Abaixo de 16 kg/m²</p>
+                <p>Entre 16 e 16,99 kg/m²</p>
+                <p>Entre 17 e 18,49 kg/m²</p>
+                <p>Entre 18,50 e 24,99 kg/m²</p>
+                <p>Entre 25 e 29,99 kg/m²</p>
+                <p>Entre 30 e 34,99 kg/m²</p>
+                <p>Entre 35 e 39,99 kg/m²</p>
+                <p>Maior que 40 kg/m²</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Karla Barreto.</p>
+    </footer>
+    <script src="arquivo.js"></script>
+</body>
+
+</html>
